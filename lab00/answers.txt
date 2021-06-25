@@ -1,3 +1,6 @@
-1.grep -r "keyword" fileName
-2.ps
-3.diff
+1.mv <source> <destination>
+2.chmod <AccessClass><Operator><AccessType> <fileOrDirectory>
+3.pwd
+4.grep -r "keyword" fileName
+5.ps
+6.diff <fileOne> <fileTwo>
