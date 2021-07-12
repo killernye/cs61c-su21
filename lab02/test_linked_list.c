@@ -21,11 +21,14 @@ int main(int argc, char **argv) {
         assert(curr->data == expected_values[i]);
         curr = curr->next;
     }
+    
     free_list(head);
 
+    
     printf("Congrats! You have passed the reverse_list test!\n\n");
 
     /************ add_to_back test ***********/
+
     Node *head_2 = NULL;
     add_to_back(&head_2, 15);
     add_to_back(&head_2, 12);
@@ -36,8 +39,11 @@ int main(int argc, char **argv) {
         assert(curr_2->data == expected_values_2[i]);
         curr_2 = curr_2->next;
     }
+    
     free_list(head_2);
 
     printf("Congrats! All of the test cases passed!\n");
+
     return 0;
+
 }
